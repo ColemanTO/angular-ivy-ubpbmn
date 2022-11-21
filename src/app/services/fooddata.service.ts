@@ -9,6 +9,8 @@ import { catchError } from 'rxjs/operators';
 @Injectable()
 export class FooddataService {
 
-  constructor(http: HttpClient) { }
+  constructor(private http: HttpClient) { }
+
+
 
 }
